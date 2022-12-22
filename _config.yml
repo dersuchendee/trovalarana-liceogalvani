@@ -20,7 +20,7 @@
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder-GHO 
+title: LaRana
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: a template for creating simple digital exhibits
 # description appears in meta tags and other locations
@@ -42,8 +42,8 @@ metadata: demo-metadata
 #
 organization-name: "Liceo Galvani, Bologna"
 # organization-link: https://cdil.lib.uidaho.edu/
-organization-logo-banner: http://archiviostorico.liceogalvani.it/wp-content/uploads/2022/02/logo_LG_archivio.png
-organization-logo-nav: http://archiviostorico.liceogalvani.it/wp-content/uploads/2022/02/logo_LG_archivio.png
+#organization-logo-banner: http://archiviostorico.liceogalvani.it/wp-content/uploads/2022/02/logo_LG_archivio.png
+#organization-logo-nav: http://archiviostorico.liceogalvani.it/wp-content/uploads/2022/02/logo_LG_archivio.png
 
 
 
