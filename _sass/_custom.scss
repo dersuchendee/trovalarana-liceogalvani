@@ -1,4 +1,13 @@
-/* 
-    Put your custom SCSS here! 
+/*
+    Put your custom SCSS here!
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+.bi {
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-bottom;
+    overflow: hidden;
+    width: 10px!important;
+    height: 10px!important;
+    vertical-align: -0.1em;
+}
