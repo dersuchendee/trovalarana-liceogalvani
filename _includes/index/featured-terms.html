@@ -41,8 +41,9 @@
 {% for i in termsCount limit: termsMax %}{{ i | split: "||" | last }};{% endfor %}{% endcapture %}
 {% assign topTerms = topTerms | split: ";" %}
 {%- endif -%}
-<div class="card mb-3">
   <col>
+<div class="card mb-3">
+
     {% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{% endif %}
     <div class="card-body">
         {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
@@ -51,5 +52,6 @@
             <a class="btn btn-sm btn-{{ include.btn-color | default: 'primary' }} m-1" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a>{% endfor %}
         </p>
     </div>
-    </col>
+
 </div>
+    </col>
