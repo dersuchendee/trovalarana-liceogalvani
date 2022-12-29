@@ -1,26 +1,26 @@
 ---
 # Lunr search page
-layout: page 
+layout: page
 custom-foot: js/lunr-js.html
 ---
 {%- assign fields = site.data.config-search | where: 'index',true | map: 'field' -%}
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Search Options</button>
+<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Opzioni di ricerca</button>
 <!-- Modal -->
 <div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel">Lunr Search Options</h5>
+                <h5 class="modal-title" id="modalLabel">Opzioni di ricerca Lunr</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>These advanced options can be added to your query in the search box to refine your results:</p> 
+                <p>Queste opzioni avanzate possono essere aggiunte alla tua ricerca per ottenere risultati più specifici:</p>
                 <ul>
-                    <li>Search a specific field: use the field name, colon, then your query, e.g. <code>title:foo</code>, <code>date:1911</code>, <code>subject:tree</code>. In this collection you can use {{ fields | join: ", " }}.</li>
-                    <li>Wildcards: add <code>*</code> to match any character(s), e.g. <code>foo*</code>, <code>*oo</code>. This is helpful for using a root to find words with all related endings.</li>
-                    <li>Fuzzy match: add <code>~</code> plus a number at the end of your query to specify a higher level of fuzziness in search, e.g. <code>foo~1</code>. This can help with misspellings.</li>
-                    <li>Boost term: add <code>^</code> plus a number to boost the relevance of a term in your query, e.g. <code>foo^10</code>. This can help reduce clutter of unrelated results if one of your terms is most important.</li>
+                    <li>Cerca un campo specifico: utilizza il nome del campo, i due punti, poi la tua ricerca, ad es. <code>title:foo</code>, <code>date:1911</code>, <code>subject:tree</code>. In questa collezione puoi usare {{ fields | join: ", " }}.</li>
+                    <li>Wildcards: aggiungi <code>*</code> per trovare qualsiasi carattere, e.g. <code>foo*</code>, <code>*oo</code>. Questo aiuta quando si vuole utilizzare una radice per trovare parole con desinenze diverse.</li>
+                    <li>Fuzzy match: aggiungi <code>~</code> più un numero alla fine della tua ricerca per specificare un livello più alto di indeterminatezza nelle ricerche, ad es. <code>foo~1</code>. Questo può aiutare con errori di trascrizione.</li>
+                    <li>Potenzia un termine: aggiungi <code>^</code> più un numero per potenziare la rilevanza di un termine all'interno della tua ricerca, ad es. <code>foo^10</code>. Questo può essere utile per ridurre la ricerca eliminando risultati non coerenti.</li>
                 </ul>
             </div>
         </div>
@@ -38,11 +38,11 @@ custom-foot: js/lunr-js.html
             </button>
         </div>
     </form>
-    
+
     <table id="lunrResults" class="table table-responsive"></table>
 </div>
 
 <div class="mt-3">
-    <p class="text-muted">Fuzzy search powered by <a href="https://lunrjs.com/" target="_blank" rel="noopener">Lunr.js</a>. <em>May take a second to load large collections!</em></p>
-    {% if site.google-cse-id %}<p class="text-muted">Alternatively, try <a href="{{ '/search/google.html' | relative_url }}">Google CSE</a> site search.</p>{% endif %}
+    <p class="text-muted">Fuzzy search creata da <a href="https://lunrjs.com/" target="_blank" rel="noopener">Lunr.js</a>. <em>Può volerci qualche minuto per caricare grandi collezioni!</em></p>
+    {% if site.google-cse-id %}<p class="text-muted">In alternativa, prova la ricerca <a href="{{ '/search/google.html' | relative_url }}">Google CSE</a>.</p>{% endif %}
 </div>
