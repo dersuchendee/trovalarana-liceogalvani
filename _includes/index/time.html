@@ -1,7 +1,7 @@
 {%- assign raw-dates = items | map: 'date' | compact | uniq  -%}
 {%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
 {%- assign date-range = clean-years | remove: " " | split: ";" | uniq | sort  -%}
-  <col>
+  <div class="col">
 <div class="card mb-3">
 
   <div class="card-body">
@@ -12,4 +12,4 @@
   </div>
 
 </div>
-  </col>
+  </div>
