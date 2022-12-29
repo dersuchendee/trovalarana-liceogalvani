@@ -69,7 +69,7 @@ navbar-background: bg-dark
 # leave blank or comment out for plain bootstrap
 
 # THEME FONTS
-base-font-size: 1.3em
+base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#0d6efd"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
