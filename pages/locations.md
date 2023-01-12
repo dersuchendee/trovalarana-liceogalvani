@@ -10,5 +10,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Esplora i luoghi
 
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Usa questa visualizzazione per esplorare i luoghi della collezione. La dimensione delle parole è proporzionale alla loro frequenza. Ogni parola è collegata ad almeno un elemento della collezione.

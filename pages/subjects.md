@@ -10,5 +10,4 @@ cloud-fields: site.data.theme.subjects-fields
 
 ## Esplora temi
 
-Use this word cloud visualization to browse terms and subjects.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Usa questa visualizzazione per esplorare termini e temi della collezione. La dimensione delle parole è proporzionale alla loro frequenza. Ogni parola è collegata ad almeno un elemento della collezione.
