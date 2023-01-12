@@ -10,4 +10,4 @@ cloud-fields: site.data.theme.subjects-fields
 
 ## Esplora temi
 
-Usa questa visualizzazione per esplorare termini e temi della collezione. La dimensione delle parole è proporzionale alla loro frequenza. Ogni parola è collegata ad almeno un elemento della collezione.
+Usa questa visualizzazione per esplorare termini e temi della collezione.
