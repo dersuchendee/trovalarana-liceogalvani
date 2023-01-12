@@ -1,5 +1,5 @@
 ---
-title: Data
+title: Metadati
 layout: data
 permalink: /data.html
 # see _data/config-table.csv for table display options
@@ -8,6 +8,5 @@ permalink: /data.html
 
 ## Collection Metadata
 
-The table below provides sorting and basic search of the collection contents. 
-Use the "CSV" or "Excel" button below to download the filtered metadata you see on the page in your preferred format. 
-Alternatively, click the "Download" button at the top right to view the full collection metadata in various export formats. 
+Questa tabella fornisce modalità di ricerca di base dei contenuti della collezione.
+Usa il pulsante "CSV" o "Excel" per scaricare i metadati secondo i filtri selezionati nel formato preferito. In alternativa, clicca il pulsante "Download" in alto a destra per visualizzare tutti i metadati in diversi possibili formati di esportazione.
