@@ -10,4 +10,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Esplora i luoghi
 
-Usa questa visualizzazione per esplorare i luoghi della collezione. La dimensione delle parole è proporzionale alla loro frequenza. Ogni parola è collegata ad almeno un elemento della collezione.
+Usa questa visualizzazione per esplorare i luoghi della collezione.
