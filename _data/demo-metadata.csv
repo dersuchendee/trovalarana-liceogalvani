@@ -1,6 +1,6 @@
-objectid,filename,youtubeid,title,creator,date,description,subject,location,source,identifier,type,format,language,rights,rightsstatement,autori
+objectid,filename,youtubeid,title,creator,date,description,subject,location,source,identifier,type,format,language,rights,rightsstatement,autori,object_location
 larana_031967_f,larana_031967_f.jpg,,"La Rana, marzo 1967. Fronte.",Liceo Galvani,1967-03-01,Giornalino La Rana.,liceo galvani;marco biagi;giornalino;68,Bologna,Archivio Liceo Galvani,larana_031967_f,Image;StillImage,image/jpeg,it,Public domain,http://rightsstatements.org/vocab/NoC-US/1.0/,Marco Biagi
-larana_031967_b,larana_031967_r.jpg,,"La Rana, marzo 1967. Retro.",Liceo Galvani,1967-03-01,Esempio descrizione,esempio;prova,Bologna,Archivio Liceo Galvani,larana_031967_b,Image;StillImage,image/jpeg,it,Da capire,Boh,
+larana_031967_b,larana_031967_r.jpg,,"La Rana, marzo 1967. Retro.",Liceo Galvani,1967-03-01,Esempio descrizione,esempio;prova,Bologna,Archivio Liceo Galvani,larana_031967_b,Image;StillImage,image/jpeg,it,Da capire,Boh,https://bub.unibo.it/iiif/2/manifest/bub/giornaliniscolastici/larana/jpg/1966.json
 coll003,,,,,,,,,,,,,,,,
 coll004,,,,,,,,,,,,,,,,
 coll005,,,,,,,,,,,,,,,,
