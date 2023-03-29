@@ -1,0 +1,1482 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json", 
+  "@id": "https://bub.unibo.it/iiif/2/manifest/bub/giornaliniscolastici/larana/jpg/1967.json", 
+  "@type": "sc:Manifest", 
+  "label": "1967", 
+  "metadata": [
+    {
+      "label": "viewingdirection", 
+      "value": "left-to-right"
+    }, 
+    {
+      "label": "tipologia", 
+      "value": "periodico"
+    }, 
+    {
+      "label": "luogo pubblicazione", 
+      "value": "Bologna"
+    }, 
+    {
+      "label": "data", 
+      "value": "1(1961); 6(1966)-7(1967)"
+    }, 
+    {
+      "label": "collezione", 
+      "value": "lacunosa"
+    }
+  ], 
+  "description": "Periodico irregolare", 
+  "thumbnail": {
+    "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-thumbnail-240.jpg/full/full/0/default.jpg", 
+    "@type": "dctypes:Image", 
+    "format": "image/jpeg", 
+    "height": 240, 
+    "width": 170, 
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json", 
+      "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-thumbnail-240.jpg", 
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  }, 
+  "attribution": "BUB - Biblioteca Universitaria di Bologna", 
+  "license": "https://bub.unibo.it/it/bub-digitale/termini-d-uso", 
+  "logo": "https://bub.unibo.it/logo.png", 
+  "viewingDirection": "left-to-right", 
+  "within": "https://bub.unibo.it/iiif/2/manifest/bub/giornaliniscolastici/larana/jpg.json", 
+  "sequences": [
+    {
+      "@type": "sc:Sequence", 
+      "canvases": [
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5566b0e2f446cc4a83f9d6cf289678dd4248443e-la_rana_marzo_1967_0001.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "La rana: organo interno del Liceo Galvani", 
+          "metadata": [
+            {
+              "label": "bid", 
+              "value": "UBO2737388"
+            }, 
+            {
+              "label": "opac", 
+              "value": "https://sol.unibo.it/SebinaOpac/.do?idopac=UBO2737388"
+            }, 
+            {
+              "label": "note", 
+              "value": "Periodicit\u00e0 non determinata. - Descrizione basata su: A. 1, n. 4 (1960/61)."
+            }, 
+            {
+              "label": "type", 
+              "value": "pubblic. in serie"
+            }, 
+            {
+              "label": "type", 
+              "value": "materiale a stampa"
+            }, 
+            {
+              "label": "language", 
+              "value": "italiano"
+            }
+          ], 
+          "description": "La rana: organo interno del Liceo Galvani. - Bologna: \\s. n.!. -  v.", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@5566b0e2f446cc4a83f9d6cf289678dd4248443e-la_rana_marzo_1967_0001.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "1", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@5566b0e2f446cc4a83f9d6cf289678dd4248443e-la_rana_marzo_1967_0001.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5566b0e2f446cc4a83f9d6cf289678dd4248443e-la_rana_marzo_1967_0001.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@1d559e3f1074891c860a5bc6c4d40a762e986b94-la_rana_marzo_1967_0002.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "2", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@1d559e3f1074891c860a5bc6c4d40a762e986b94-la_rana_marzo_1967_0002.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "2", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@1d559e3f1074891c860a5bc6c4d40a762e986b94-la_rana_marzo_1967_0002.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@1d559e3f1074891c860a5bc6c4d40a762e986b94-la_rana_marzo_1967_0002.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@217ac42454766f6196a7d5b81f97d704e8edd804-la_rana_marzo_1967_0003.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "3", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@217ac42454766f6196a7d5b81f97d704e8edd804-la_rana_marzo_1967_0003.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "3", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@217ac42454766f6196a7d5b81f97d704e8edd804-la_rana_marzo_1967_0003.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@217ac42454766f6196a7d5b81f97d704e8edd804-la_rana_marzo_1967_0003.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@87fe3f1df1fee3f68bfc06c9d06cf52d8795e7ce-la_rana_marzo_1967_0004.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "4", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@87fe3f1df1fee3f68bfc06c9d06cf52d8795e7ce-la_rana_marzo_1967_0004.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "4", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@87fe3f1df1fee3f68bfc06c9d06cf52d8795e7ce-la_rana_marzo_1967_0004.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@87fe3f1df1fee3f68bfc06c9d06cf52d8795e7ce-la_rana_marzo_1967_0004.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@df6195b81308d1f3fc811349569fd90edfc32682-la_rana_marzo_1967_0005.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "5", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@df6195b81308d1f3fc811349569fd90edfc32682-la_rana_marzo_1967_0005.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "5", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@df6195b81308d1f3fc811349569fd90edfc32682-la_rana_marzo_1967_0005.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@df6195b81308d1f3fc811349569fd90edfc32682-la_rana_marzo_1967_0005.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@dbe7cd99b1e88aa32dd68b61bca42cab62ffe6d1-la_rana_marzo_1967_0006.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "6", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@dbe7cd99b1e88aa32dd68b61bca42cab62ffe6d1-la_rana_marzo_1967_0006.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "6", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@dbe7cd99b1e88aa32dd68b61bca42cab62ffe6d1-la_rana_marzo_1967_0006.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@dbe7cd99b1e88aa32dd68b61bca42cab62ffe6d1-la_rana_marzo_1967_0006.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@9cb6d7bf4e364b6edc21ec80c3a289f78d544b4e-la_rana_marzo_1967_0007.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "7", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@9cb6d7bf4e364b6edc21ec80c3a289f78d544b4e-la_rana_marzo_1967_0007.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "7", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@9cb6d7bf4e364b6edc21ec80c3a289f78d544b4e-la_rana_marzo_1967_0007.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@9cb6d7bf4e364b6edc21ec80c3a289f78d544b4e-la_rana_marzo_1967_0007.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@310cfef311ad89f69dac403f78a6e46beb5c0979-la_rana_marzo_1967_0008.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "8", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@310cfef311ad89f69dac403f78a6e46beb5c0979-la_rana_marzo_1967_0008.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "8", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@310cfef311ad89f69dac403f78a6e46beb5c0979-la_rana_marzo_1967_0008.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@310cfef311ad89f69dac403f78a6e46beb5c0979-la_rana_marzo_1967_0008.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5debdcd39dc7ddb3f1205b65fd4aad5a995d0517-la_rana_marzo_1967_0009.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "9", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@5debdcd39dc7ddb3f1205b65fd4aad5a995d0517-la_rana_marzo_1967_0009.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "9", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@5debdcd39dc7ddb3f1205b65fd4aad5a995d0517-la_rana_marzo_1967_0009.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5debdcd39dc7ddb3f1205b65fd4aad5a995d0517-la_rana_marzo_1967_0009.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@f18bf2c15a00f350e6e256315c79f04a7b2d7e37-la_rana_marzo_1967_0010.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "10", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@f18bf2c15a00f350e6e256315c79f04a7b2d7e37-la_rana_marzo_1967_0010.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "10", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@f18bf2c15a00f350e6e256315c79f04a7b2d7e37-la_rana_marzo_1967_0010.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@f18bf2c15a00f350e6e256315c79f04a7b2d7e37-la_rana_marzo_1967_0010.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@82a28990a7314e397577f9a4bcc7ea759fb9810a-la_rana_marzo_1967_0011.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "11", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@82a28990a7314e397577f9a4bcc7ea759fb9810a-la_rana_marzo_1967_0011.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "11", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@82a28990a7314e397577f9a4bcc7ea759fb9810a-la_rana_marzo_1967_0011.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@82a28990a7314e397577f9a4bcc7ea759fb9810a-la_rana_marzo_1967_0011.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@252d5d1344fc4af3bacf4513756b167be856fd61-la_rana_marzo_1967_0012.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "12", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@252d5d1344fc4af3bacf4513756b167be856fd61-la_rana_marzo_1967_0012.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "12", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@252d5d1344fc4af3bacf4513756b167be856fd61-la_rana_marzo_1967_0012.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@252d5d1344fc4af3bacf4513756b167be856fd61-la_rana_marzo_1967_0012.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@1643ca53da19b685776124fe3f6e6ee1f25adec3-la_rana_marzo_1967_0013.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "13", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@1643ca53da19b685776124fe3f6e6ee1f25adec3-la_rana_marzo_1967_0013.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "13", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@1643ca53da19b685776124fe3f6e6ee1f25adec3-la_rana_marzo_1967_0013.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@1643ca53da19b685776124fe3f6e6ee1f25adec3-la_rana_marzo_1967_0013.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@e5deeb1a025b1bd40d1c4820406393b642fea86d-la_rana_marzo_1967_0014.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "14", 
+          "height": 2886, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@e5deeb1a025b1bd40d1c4820406393b642fea86d-la_rana_marzo_1967_0014.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "14", 
+                "format": "image/jpeg", 
+                "height": 2886, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@e5deeb1a025b1bd40d1c4820406393b642fea86d-la_rana_marzo_1967_0014.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@e5deeb1a025b1bd40d1c4820406393b642fea86d-la_rana_marzo_1967_0014.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-la_rana_aprile_1967_0001.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "1", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-la_rana_aprile_1967_0001.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "1", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-la_rana_aprile_1967_0001.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-la_rana_aprile_1967_0001.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@a5e440c0ac4e9f4e55464e91c0f1b81b02710269-la_rana_aprile_1967_0002.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "2", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@a5e440c0ac4e9f4e55464e91c0f1b81b02710269-la_rana_aprile_1967_0002.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "2", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@a5e440c0ac4e9f4e55464e91c0f1b81b02710269-la_rana_aprile_1967_0002.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@a5e440c0ac4e9f4e55464e91c0f1b81b02710269-la_rana_aprile_1967_0002.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@7327d2581afb0497f036ac9ae8750afeafd13d08-la_rana_aprile_1967_0003.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "3", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@7327d2581afb0497f036ac9ae8750afeafd13d08-la_rana_aprile_1967_0003.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "3", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@7327d2581afb0497f036ac9ae8750afeafd13d08-la_rana_aprile_1967_0003.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@7327d2581afb0497f036ac9ae8750afeafd13d08-la_rana_aprile_1967_0003.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@de6be115c7d50873423ea26367910a95d235d398-la_rana_aprile_1967_0004.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "4", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@de6be115c7d50873423ea26367910a95d235d398-la_rana_aprile_1967_0004.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "4", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@de6be115c7d50873423ea26367910a95d235d398-la_rana_aprile_1967_0004.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@de6be115c7d50873423ea26367910a95d235d398-la_rana_aprile_1967_0004.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@4c6656a404731f327abbdab87eb641b656924211-la_rana_aprile_1967_0005.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "5", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@4c6656a404731f327abbdab87eb641b656924211-la_rana_aprile_1967_0005.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "5", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@4c6656a404731f327abbdab87eb641b656924211-la_rana_aprile_1967_0005.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@4c6656a404731f327abbdab87eb641b656924211-la_rana_aprile_1967_0005.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@8eeb78b0b4a4168d25340b2920859e876821e598-la_rana_aprile_1967_0006.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "6", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@8eeb78b0b4a4168d25340b2920859e876821e598-la_rana_aprile_1967_0006.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "6", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@8eeb78b0b4a4168d25340b2920859e876821e598-la_rana_aprile_1967_0006.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@8eeb78b0b4a4168d25340b2920859e876821e598-la_rana_aprile_1967_0006.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0a973408504bfb28277cd1d49861d602348f5c28-la_rana_aprile_1967_0007.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "7", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0a973408504bfb28277cd1d49861d602348f5c28-la_rana_aprile_1967_0007.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "7", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0a973408504bfb28277cd1d49861d602348f5c28-la_rana_aprile_1967_0007.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0a973408504bfb28277cd1d49861d602348f5c28-la_rana_aprile_1967_0007.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@293d30c0ef68bca792dbf9a32724b6f970902d5d-la_rana_aprile_1967_0008.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "8", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@293d30c0ef68bca792dbf9a32724b6f970902d5d-la_rana_aprile_1967_0008.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "8", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@293d30c0ef68bca792dbf9a32724b6f970902d5d-la_rana_aprile_1967_0008.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@293d30c0ef68bca792dbf9a32724b6f970902d5d-la_rana_aprile_1967_0008.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@881c73e44e04169da3b3219fb7c70f8da2bb6d82-la_rana_aprile_1967_0009.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "9", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@881c73e44e04169da3b3219fb7c70f8da2bb6d82-la_rana_aprile_1967_0009.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "9", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@881c73e44e04169da3b3219fb7c70f8da2bb6d82-la_rana_aprile_1967_0009.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@881c73e44e04169da3b3219fb7c70f8da2bb6d82-la_rana_aprile_1967_0009.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b479c1d0b164edb49f242a3693b4e899bf05348f-la_rana_aprile_1967_0010.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "10", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b479c1d0b164edb49f242a3693b4e899bf05348f-la_rana_aprile_1967_0010.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "10", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b479c1d0b164edb49f242a3693b4e899bf05348f-la_rana_aprile_1967_0010.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b479c1d0b164edb49f242a3693b4e899bf05348f-la_rana_aprile_1967_0010.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@139a4fac2800940111fd136a44413bc6ab0fff36-la_rana_aprile_1967_0011.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "11", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@139a4fac2800940111fd136a44413bc6ab0fff36-la_rana_aprile_1967_0011.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "11", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@139a4fac2800940111fd136a44413bc6ab0fff36-la_rana_aprile_1967_0011.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@139a4fac2800940111fd136a44413bc6ab0fff36-la_rana_aprile_1967_0011.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@008b3598b3d9f9d757d0ed0ddd969a2b1ba53065-la_rana_aprile_1967_0012.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "12", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@008b3598b3d9f9d757d0ed0ddd969a2b1ba53065-la_rana_aprile_1967_0012.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "12", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@008b3598b3d9f9d757d0ed0ddd969a2b1ba53065-la_rana_aprile_1967_0012.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@008b3598b3d9f9d757d0ed0ddd969a2b1ba53065-la_rana_aprile_1967_0012.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0b008611339624984f015a8a3ae2db1b49cb7fb1-la_rana_maggio_1967_0001.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "1", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0b008611339624984f015a8a3ae2db1b49cb7fb1-la_rana_maggio_1967_0001.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "1", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@0b008611339624984f015a8a3ae2db1b49cb7fb1-la_rana_maggio_1967_0001.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0b008611339624984f015a8a3ae2db1b49cb7fb1-la_rana_maggio_1967_0001.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@fcaa723e0ba2baa6686817cba5a57fb5dd10187f-la_rana_maggio_1967_0002.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "2", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@fcaa723e0ba2baa6686817cba5a57fb5dd10187f-la_rana_maggio_1967_0002.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "2", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@fcaa723e0ba2baa6686817cba5a57fb5dd10187f-la_rana_maggio_1967_0002.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@fcaa723e0ba2baa6686817cba5a57fb5dd10187f-la_rana_maggio_1967_0002.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@c90298cb2a50f58979de7d02b586e3b55dbdc8a6-la_rana_maggio_1967_0003.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "3", 
+          "height": 2886, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@c90298cb2a50f58979de7d02b586e3b55dbdc8a6-la_rana_maggio_1967_0003.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "3", 
+                "format": "image/jpeg", 
+                "height": 2886, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@c90298cb2a50f58979de7d02b586e3b55dbdc8a6-la_rana_maggio_1967_0003.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@c90298cb2a50f58979de7d02b586e3b55dbdc8a6-la_rana_maggio_1967_0003.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b0aa03efe29c007d85fc5920108f770fc46ec85c-la_rana_maggio_1967_0004.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "4", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b0aa03efe29c007d85fc5920108f770fc46ec85c-la_rana_maggio_1967_0004.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "4", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b0aa03efe29c007d85fc5920108f770fc46ec85c-la_rana_maggio_1967_0004.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b0aa03efe29c007d85fc5920108f770fc46ec85c-la_rana_maggio_1967_0004.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@d8c33d2b019059bd532179fdf0c371f65d9501ef-la_rana_maggio_1967_0005.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "5", 
+          "height": 2886, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@d8c33d2b019059bd532179fdf0c371f65d9501ef-la_rana_maggio_1967_0005.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "5", 
+                "format": "image/jpeg", 
+                "height": 2886, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@d8c33d2b019059bd532179fdf0c371f65d9501ef-la_rana_maggio_1967_0005.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@d8c33d2b019059bd532179fdf0c371f65d9501ef-la_rana_maggio_1967_0005.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@fc840afbea7463c3b05a3b33780f5f59a78eaac5-la_rana_maggio_1967_0006.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "6", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@fc840afbea7463c3b05a3b33780f5f59a78eaac5-la_rana_maggio_1967_0006.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "6", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@fc840afbea7463c3b05a3b33780f5f59a78eaac5-la_rana_maggio_1967_0006.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@fc840afbea7463c3b05a3b33780f5f59a78eaac5-la_rana_maggio_1967_0006.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@e84d4ff91ca2881ff6bc98e014772bb56bf5bb0e-la_rana_maggio_1967_0007.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "7", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@e84d4ff91ca2881ff6bc98e014772bb56bf5bb0e-la_rana_maggio_1967_0007.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "7", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@e84d4ff91ca2881ff6bc98e014772bb56bf5bb0e-la_rana_maggio_1967_0007.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@e84d4ff91ca2881ff6bc98e014772bb56bf5bb0e-la_rana_maggio_1967_0007.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@e8213e9c1811ce448f7fb51b067458dc40d4a433-la_rana_maggio_1967_0008.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "8", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@e8213e9c1811ce448f7fb51b067458dc40d4a433-la_rana_maggio_1967_0008.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "8", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@e8213e9c1811ce448f7fb51b067458dc40d4a433-la_rana_maggio_1967_0008.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@e8213e9c1811ce448f7fb51b067458dc40d4a433-la_rana_maggio_1967_0008.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@88a836ce935ab66a9b2b217c6cacef15ed5ea006-la_rana_maggio_1967_0009.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "9", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@88a836ce935ab66a9b2b217c6cacef15ed5ea006-la_rana_maggio_1967_0009.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "9", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@88a836ce935ab66a9b2b217c6cacef15ed5ea006-la_rana_maggio_1967_0009.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@88a836ce935ab66a9b2b217c6cacef15ed5ea006-la_rana_maggio_1967_0009.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@018534b75df8957e4731f37004475a28fb73de74-la_rana_maggio_1967_0010.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "10", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@018534b75df8957e4731f37004475a28fb73de74-la_rana_maggio_1967_0010.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "10", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@018534b75df8957e4731f37004475a28fb73de74-la_rana_maggio_1967_0010.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@018534b75df8957e4731f37004475a28fb73de74-la_rana_maggio_1967_0010.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5d1499d145ad0505bd8d32fdca431657c8e23d8e-la_rana_maggio_1967_0011.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "11", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@5d1499d145ad0505bd8d32fdca431657c8e23d8e-la_rana_maggio_1967_0011.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "11", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@5d1499d145ad0505bd8d32fdca431657c8e23d8e-la_rana_maggio_1967_0011.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5d1499d145ad0505bd8d32fdca431657c8e23d8e-la_rana_maggio_1967_0011.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b0baa8eaaee073aa9fa1a3791b4d8674a1c6c37c-la_rana_maggio_1967_0012.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "12", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b0baa8eaaee073aa9fa1a3791b4d8674a1c6c37c-la_rana_maggio_1967_0012.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "12", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b0baa8eaaee073aa9fa1a3791b4d8674a1c6c37c-la_rana_maggio_1967_0012.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b0baa8eaaee073aa9fa1a3791b4d8674a1c6c37c-la_rana_maggio_1967_0012.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@c9a0556715785331dfe34c3740968a10c0bece64-la_rana_maggio_1967_0013.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "13", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@c9a0556715785331dfe34c3740968a10c0bece64-la_rana_maggio_1967_0013.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "13", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@c9a0556715785331dfe34c3740968a10c0bece64-la_rana_maggio_1967_0013.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@c9a0556715785331dfe34c3740968a10c0bece64-la_rana_maggio_1967_0013.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@8b7bcd6bcc8b262f72f6f398ea7798d788a91d51-la_rana_maggio_1967_0014.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "14", 
+          "height": 2887, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@8b7bcd6bcc8b262f72f6f398ea7798d788a91d51-la_rana_maggio_1967_0014.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "14", 
+                "format": "image/jpeg", 
+                "height": 2887, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@8b7bcd6bcc8b262f72f6f398ea7798d788a91d51-la_rana_maggio_1967_0014.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@8b7bcd6bcc8b262f72f6f398ea7798d788a91d51-la_rana_maggio_1967_0014.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@991d297d92008999b848fa03ad79c3e07fd06d62-la_rana_maggio_1967_0015.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "15", 
+          "height": 2886, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@991d297d92008999b848fa03ad79c3e07fd06d62-la_rana_maggio_1967_0015.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "15", 
+                "format": "image/jpeg", 
+                "height": 2886, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@991d297d92008999b848fa03ad79c3e07fd06d62-la_rana_maggio_1967_0015.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@991d297d92008999b848fa03ad79c3e07fd06d62-la_rana_maggio_1967_0015.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@be0812aca8304f24ca10210b8098a7df69d05553-la_rana_maggio_1967_0016.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "16", 
+          "height": 2886, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@be0812aca8304f24ca10210b8098a7df69d05553-la_rana_maggio_1967_0016.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "16", 
+                "format": "image/jpeg", 
+                "height": 2886, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@be0812aca8304f24ca10210b8098a7df69d05553-la_rana_maggio_1967_0016.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@be0812aca8304f24ca10210b8098a7df69d05553-la_rana_maggio_1967_0016.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@9131e0ff56fefbf19f47d60cdd24e28d53fe015e-la_rana_ottobre_1967_0001.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "1", 
+          "height": 2762, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@9131e0ff56fefbf19f47d60cdd24e28d53fe015e-la_rana_ottobre_1967_0001.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "1", 
+                "format": "image/jpeg", 
+                "height": 2762, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@9131e0ff56fefbf19f47d60cdd24e28d53fe015e-la_rana_ottobre_1967_0001.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@9131e0ff56fefbf19f47d60cdd24e28d53fe015e-la_rana_ottobre_1967_0001.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@27d3b7bc38262f076f254775a46f43daa259e57c-la_rana_ottobre_1967_0002.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "2", 
+          "height": 2999, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@27d3b7bc38262f076f254775a46f43daa259e57c-la_rana_ottobre_1967_0002.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "2", 
+                "format": "image/jpeg", 
+                "height": 2999, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@27d3b7bc38262f076f254775a46f43daa259e57c-la_rana_ottobre_1967_0002.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@27d3b7bc38262f076f254775a46f43daa259e57c-la_rana_ottobre_1967_0002.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@200af7b89d7a6e5a6a378e2b2846b8258d84d474-la_rana_ottobre_1967_0003.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "3", 
+          "height": 2952, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@200af7b89d7a6e5a6a378e2b2846b8258d84d474-la_rana_ottobre_1967_0003.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "3", 
+                "format": "image/jpeg", 
+                "height": 2952, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@200af7b89d7a6e5a6a378e2b2846b8258d84d474-la_rana_ottobre_1967_0003.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@200af7b89d7a6e5a6a378e2b2846b8258d84d474-la_rana_ottobre_1967_0003.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@a5adac19829db45a3e009a16d105dc1f29bea4c4-la_rana_ottobre_1967_0004.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "4", 
+          "height": 2952, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@a5adac19829db45a3e009a16d105dc1f29bea4c4-la_rana_ottobre_1967_0004.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "4", 
+                "format": "image/jpeg", 
+                "height": 2952, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@a5adac19829db45a3e009a16d105dc1f29bea4c4-la_rana_ottobre_1967_0004.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@a5adac19829db45a3e009a16d105dc1f29bea4c4-la_rana_ottobre_1967_0004.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@57fbd874bc21639ddb267bb62ed17c6d4e966069-la_rana_ottobre_1967_0005.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "5", 
+          "height": 2952, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@57fbd874bc21639ddb267bb62ed17c6d4e966069-la_rana_ottobre_1967_0005.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "5", 
+                "format": "image/jpeg", 
+                "height": 2952, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@57fbd874bc21639ddb267bb62ed17c6d4e966069-la_rana_ottobre_1967_0005.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@57fbd874bc21639ddb267bb62ed17c6d4e966069-la_rana_ottobre_1967_0005.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@658c131a9bba821121ecc45ba42d12de7a3bd2ae-la_rana_ottobre_1967_0006.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "6", 
+          "height": 2952, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@658c131a9bba821121ecc45ba42d12de7a3bd2ae-la_rana_ottobre_1967_0006.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "6", 
+                "format": "image/jpeg", 
+                "height": 2952, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@658c131a9bba821121ecc45ba42d12de7a3bd2ae-la_rana_ottobre_1967_0006.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@658c131a9bba821121ecc45ba42d12de7a3bd2ae-la_rana_ottobre_1967_0006.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@dda58707052e41cc4dcbf8b7a9d32e026171cc51-la_rana_ottobre_1967_0007.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "7", 
+          "height": 2952, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@dda58707052e41cc4dcbf8b7a9d32e026171cc51-la_rana_ottobre_1967_0007.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "7", 
+                "format": "image/jpeg", 
+                "height": 2952, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@dda58707052e41cc4dcbf8b7a9d32e026171cc51-la_rana_ottobre_1967_0007.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@dda58707052e41cc4dcbf8b7a9d32e026171cc51-la_rana_ottobre_1967_0007.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b40fcf4e9567eac3e2a648f481c981245d45602f-la_rana_ottobre_1967_0008.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "8", 
+          "height": 2795, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b40fcf4e9567eac3e2a648f481c981245d45602f-la_rana_ottobre_1967_0008.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "8", 
+                "format": "image/jpeg", 
+                "height": 2795, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1967@b40fcf4e9567eac3e2a648f481c981245d45602f-la_rana_ottobre_1967_0008.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@b40fcf4e9567eac3e2a648f481c981245d45602f-la_rana_ottobre_1967_0008.jp2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ], 
+  "structures": [
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/toc.json", 
+      "@type": "sc:Range", 
+      "label": "Table of Contents", 
+      "viewingHint": "top", 
+      "ranges": [
+        "https://bub.unibo.it/iiif/2/range/range0001.json", 
+        "https://bub.unibo.it/iiif/2/range/range0002.json", 
+        "https://bub.unibo.it/iiif/2/range/range0003.json", 
+        "https://bub.unibo.it/iiif/2/range/range0004.json"
+      ]
+    }, 
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/range0001.json", 
+      "@type": "sc:Range", 
+      "label": "Marzo 1967", 
+      "canvases": [
+        "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@5566b0e2f446cc4a83f9d6cf289678dd4248443e-la_rana_marzo_1967_0001.jp2.json"
+      ]
+    }, 
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/range0002.json", 
+      "@type": "sc:Range", 
+      "label": "Aprile 1967", 
+      "canvases": [
+        "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0073d94344e84238753a96491d91028c0d170d10-la_rana_aprile_1967_0001.jp2.json"
+      ]
+    }, 
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/range0003.json", 
+      "@type": "sc:Range", 
+      "label": "Maggio 1967", 
+      "canvases": [
+        "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@0b008611339624984f015a8a3ae2db1b49cb7fb1-la_rana_maggio_1967_0001.jp2.json"
+      ]
+    }, 
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/range0004.json", 
+      "@type": "sc:Range", 
+      "label": "Ottobre 1967", 
+      "canvases": [
+        "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1967@9131e0ff56fefbf19f47d60cdd24e28d53fe015e-la_rana_ottobre_1967_0001.jp2.json"
+      ]
+    }
+  ], 
+  "related": [
+    {
+      "@id": "https://sol.unibo.it/SebinaOpac/resource/la-rana-organo-interno-del-liceo-galvani/UBO2737388", 
+      "label": "scheda OPAC"
+    }
+  ]
+}

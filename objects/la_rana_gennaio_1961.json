@@ -1,0 +1,267 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json", 
+  "@id": "https://bub.unibo.it/iiif/2/manifest/bub/giornaliniscolastici/larana/jpg/1961.json", 
+  "@type": "sc:Manifest", 
+  "label": "1961", 
+  "metadata": [
+    {
+      "label": "viewingdirection", 
+      "value": "left-to-right"
+    }, 
+    {
+      "label": "tipologia", 
+      "value": "periodico"
+    }, 
+    {
+      "label": "luogo pubblicazione", 
+      "value": "Bologna"
+    }, 
+    {
+      "label": "data", 
+      "value": "1(1961); 6(1966)-7(1967)"
+    }, 
+    {
+      "label": "collezione", 
+      "value": "lacunosa"
+    }
+  ], 
+  "description": "Periodico irregolare", 
+  "thumbnail": {
+    "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-thumbnail-240.jpg/full/full/0/default.jpg", 
+    "@type": "dctypes:Image", 
+    "format": "image/jpeg", 
+    "height": 240, 
+    "width": 180, 
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json", 
+      "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-thumbnail-240.jpg", 
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  }, 
+  "attribution": "BUB - Biblioteca Universitaria di Bologna", 
+  "license": "https://bub.unibo.it/it/bub-digitale/termini-d-uso", 
+  "logo": "https://bub.unibo.it/logo.png", 
+  "viewingDirection": "left-to-right", 
+  "within": "https://bub.unibo.it/iiif/2/manifest/bub/giornaliniscolastici/larana/jpg.json", 
+  "sequences": [
+    {
+      "@type": "sc:Sequence", 
+      "canvases": [
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-la_rana_gennaio_1961_0001.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "La rana: organo interno del Liceo Galvani", 
+          "metadata": [
+            {
+              "label": "bid", 
+              "value": "UBO2737388"
+            }, 
+            {
+              "label": "opac", 
+              "value": "https://sol.unibo.it/SebinaOpac/.do?idopac=UBO2737388"
+            }, 
+            {
+              "label": "note", 
+              "value": "Periodicit\u00e0 non determinata. - Descrizione basata su: A. 1, n. 4 (1960/61)."
+            }, 
+            {
+              "label": "type", 
+              "value": "pubblic. in serie"
+            }, 
+            {
+              "label": "type", 
+              "value": "materiale a stampa"
+            }, 
+            {
+              "label": "language", 
+              "value": "italiano"
+            }
+          ], 
+          "description": "La rana: organo interno del Liceo Galvani. - Bologna: \\s. n.!. -  v.", 
+          "height": 2733, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-la_rana_gennaio_1961_0001.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "1", 
+                "format": "image/jpeg", 
+                "height": 2733, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-la_rana_gennaio_1961_0001.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-la_rana_gennaio_1961_0001.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@b435f3c2807d04a30ed14651f59bb599c0d62ac6-la_rana_gennaio_1961_0002.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "2", 
+          "height": 2834, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@b435f3c2807d04a30ed14651f59bb599c0d62ac6-la_rana_gennaio_1961_0002.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "2", 
+                "format": "image/jpeg", 
+                "height": 2834, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@b435f3c2807d04a30ed14651f59bb599c0d62ac6-la_rana_gennaio_1961_0002.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@b435f3c2807d04a30ed14651f59bb599c0d62ac6-la_rana_gennaio_1961_0002.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@40cfbbcc1ef2d46860720712c3423f10d815af4c-la_rana_gennaio_1961_0003.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "3", 
+          "height": 2834, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@40cfbbcc1ef2d46860720712c3423f10d815af4c-la_rana_gennaio_1961_0003.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "3", 
+                "format": "image/jpeg", 
+                "height": 2834, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@40cfbbcc1ef2d46860720712c3423f10d815af4c-la_rana_gennaio_1961_0003.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@40cfbbcc1ef2d46860720712c3423f10d815af4c-la_rana_gennaio_1961_0003.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@fa4d972ab4d322e1c8e1dbeec1a0cdb0a16d9bf6-la_rana_gennaio_1961_0004.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "4", 
+          "height": 2834, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@fa4d972ab4d322e1c8e1dbeec1a0cdb0a16d9bf6-la_rana_gennaio_1961_0004.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "4", 
+                "format": "image/jpeg", 
+                "height": 2834, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@fa4d972ab4d322e1c8e1dbeec1a0cdb0a16d9bf6-la_rana_gennaio_1961_0004.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@fa4d972ab4d322e1c8e1dbeec1a0cdb0a16d9bf6-la_rana_gennaio_1961_0004.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@3c05b6c855f7f5f2fdbf96756cc30f93e097fc57-la_rana_gennaio_1961_0005.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "5", 
+          "height": 2834, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@3c05b6c855f7f5f2fdbf96756cc30f93e097fc57-la_rana_gennaio_1961_0005.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "5", 
+                "format": "image/jpeg", 
+                "height": 2834, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@3c05b6c855f7f5f2fdbf96756cc30f93e097fc57-la_rana_gennaio_1961_0005.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@3c05b6c855f7f5f2fdbf96756cc30f93e097fc57-la_rana_gennaio_1961_0005.jp2.json"
+            }
+          ]
+        }, 
+        {
+          "@id": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@651694f4f277c24f6eb2dbc245800e4dc05cc677-la_rana_gennaio_1961_0006.jp2.json", 
+          "@type": "sc:Canvas", 
+          "label": "6", 
+          "height": 2771, 
+          "width": 2048, 
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@651694f4f277c24f6eb2dbc245800e4dc05cc677-la_rana_gennaio_1961_0006.jp2/full/full/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "label": "6", 
+                "format": "image/jpeg", 
+                "height": 2771, 
+                "width": 2048, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://bub.unibo.it/iiif/2/bub@giornaliniscolastici@larana@jpg@1961@651694f4f277c24f6eb2dbc245800e4dc05cc677-la_rana_gennaio_1961_0006.jp2", 
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }, 
+              "on": "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@651694f4f277c24f6eb2dbc245800e4dc05cc677-la_rana_gennaio_1961_0006.jp2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ], 
+  "structures": [
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/toc.json", 
+      "@type": "sc:Range", 
+      "label": "Table of Contents", 
+      "viewingHint": "top", 
+      "ranges": [
+        "https://bub.unibo.it/iiif/2/range/range0001.json"
+      ]
+    }, 
+    {
+      "@id": "https://bub.unibo.it/iiif/2/range/range0001.json", 
+      "@type": "sc:Range", 
+      "label": "Gennaio 1961", 
+      "canvases": [
+        "https://bub.unibo.it/iiif/2/canvas/bub@giornaliniscolastici@larana@jpg@1961@81c65fb655ed13987b2e2d2241ae93ee185525e7-la_rana_gennaio_1961_0001.jp2.json"
+      ]
+    }
+  ], 
+  "related": [
+    {
+      "@id": "https://sol.unibo.it/SebinaOpac/resource/la-rana-organo-interno-del-liceo-galvani/UBO2737388", 
+      "label": "scheda OPAC"
+    }
+  ]
+}
