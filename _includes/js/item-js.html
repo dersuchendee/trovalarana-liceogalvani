@@ -1,5 +1,9 @@
 {%- assign fields = site.data.config-metadata -%}
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
+<!-- add IIIF Universal Viewer assets from CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/uv.css"/>
+<script src="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/umd/UV.js"></script>
+
 <script>
 (function(){
     /* add item data */
@@ -24,6 +28,11 @@
         if (format.includes('image')) {
             itemImage= '<div class="spotlight gallery-img" data-download="true" data-src="' + objectLink + '"><img class="img-fluid" src="' + objectLink + '" alt="' + objectTitle + '"><p><small>Click to view full screen</small></p></div>';
             itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download Image</a>';
+        } else if (format.includes('iiif')) {
+            // universal viewer for iiif items
+            itemImage= '<div class="uv" id="uv" style="width: 100%; height: 668px;"></div>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download IIIF Manifest</a>';
+
         } else if (format.includes('pdf')) {
             itemImage= '<object aria-label="' + objectTitle + '" data="' + objectLink + '" type="application/pdf" width="100%" height="450px"><p>The PDF is not rendering in your browser. Please use the button below to download the PDF.</p></object>';
             itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download PDF</a>';
@@ -70,8 +79,13 @@
         document.getElementById("item-image").innerHTML = itemImage;
         document.getElementById("item-link").innerHTML = itemLink;
         
-        /* trigger Gallery for images */
-        // ?
+        /* trigger iiif viewer */
+        if (format.includes('iiif')) {
+            var uvOptions = {
+                manifest: objectLink
+            };
+            uv = UV.init("uv", uvOptions);
+        }
 
         /* add item metadata */
         var fields = '<dl>';
