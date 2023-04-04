@@ -1,6 +1,7 @@
 field,display_name,browse_link,external_link
 title,Titolo,
 creator,Creatore,
+autori,Autori,
 date,Data,
 description,Descrizione,
 subject,Soggetti,true
