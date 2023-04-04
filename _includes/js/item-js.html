@@ -7,7 +7,7 @@
 <script>
 (function(){
     /* add item data */
-    var items = { 
+    var items = {
         {%- for item in site.data[site.metadata] -%}
         {{ item.objectid | jsonify }} : { {% unless fields contains 'title' %}"title": {{ item.title | jsonify }}, {% endunless %}{% for f in fields %}{% if item[f.field] %}{{ f.field | jsonify }}: {{ item[f.field] | jsonify }}, {% endif %}{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }}, {% endif %}{% if item.vimeoid %} "vimeo": {{ item.vimeoid | jsonify }}, {% endif %}"format": {{ item.format | jsonify }}, {% if  item.filename contains '/' %}"filename": "{{ item.filename }}" {% else %}"filename":{{ '/objects/' | relative_url | append: item.filename | jsonify }}{% endif %} }{% unless forloop.last %}, {% endunless %}
         {% endfor %}
@@ -21,37 +21,37 @@
         var objectTitle = record.title;
         document.getElementById("bc-title").innerHTML = objectTitle;
         document.getElementById("item-title").innerHTML = objectTitle;
-        /* add object */ 
+        /* add object */
         var format = "" + record.format;
         var objectLink = record.filename;
         var itemImage, itemLink;
         if (format.includes('image')) {
             itemImage= '<div class="spotlight gallery-img" data-download="true" data-src="' + objectLink + '"><img class="img-fluid" src="' + objectLink + '" alt="' + objectTitle + '"><p><small>Click to view full screen</small></p></div>';
-            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download Image</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Scarica immagine</a>';
         } else if (format.includes('iiif')) {
             // universal viewer for iiif items
             itemImage= '<div class="uv" id="uv" style="width: 100%; height: 668px;"></div>';
-            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download IIIF Manifest</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Scarica IIIF Manifest</a>';
 
         } else if (format.includes('pdf')) {
             itemImage= '<object aria-label="' + objectTitle + '" data="' + objectLink + '" type="application/pdf" width="100%" height="450px"><p>The PDF is not rendering in your browser. Please use the button below to download the PDF.</p></object>';
-            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download PDF</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download"><Scarica PDF</a>';
         } else if (format.includes('audio')) {
             itemImage= '<audio controls class="w-100"><source src="' + objectLink + '">Your browser does not support the audio element.</audio>';
-            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download Audio File</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Scarica Audio File</a>';
         } else if (record.youtube) {
             itemImage= '<div class="ratio ratio-16x9"><iframe title="' + objectTitle + '" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
-            itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">View on YouTube</a>';
+            itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Vedi su YouTube</a>';
         } else if (record.vimeo) {
             itemImage= '<div class="ratio ratio-16x9"><iframe title="' + objectTitle + '"src="https://player.vimeo.com/video/' + record.vimeo + '" allowfullscreen></iframe></div>';
-            itemLink= '<a href="https://vimeo.com/' + record.vimeo + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">View on Vimeo</a>';
+            itemLink= '<a href="https://vimeo.com/' + record.vimeo + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Vedi su Vimeo</a>';
         } else if (format.includes('video')) {
             itemImage= '<video controls class="w-100"><source src="' + objectLink + '">Your browser does not support the video element.</audio>';
-            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download Video File</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Scarica Video File</a>';
         } else {
             /* fall back to no preview if it doesn't know the format */
             itemImage= '<img class="w-50" src="{{ "/assets/lib/icons/file-earmark.svg" | relative_url }}" alt="No preview found">';
-            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Download Object</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="Object download">Scarica</a>';
         }
 
         {% if stubs contains "timeline" %}
@@ -65,11 +65,11 @@
             } else {
                 itemYear = record.date;
             }
-            itemLink += '<a href="{{ "/timeline.html" | relative_url }}#y' + itemYear + '" class="m-2 btn btn-outline-dark">View on Timeline</a>';
+            itemLink += '<a href="{{ "/timeline.html" | relative_url }}#y' + itemYear + '" class="m-2 btn btn-outline-dark">Vedi sulla linea del tempo</a>';
         }
         {%- endif -%}
         {% if stubs contains "map" %}
-        /* add link to view on map */ 
+        /* add link to view on map */
         if (record.latitude && record.longitude) {
             itemLink += '<a href="{{ '/map.html' | relative_url }}#' + record.latitude + ',' + record.longitude + '" class="m-2 btn btn-outline-dark">View on Map</a>';
         }
@@ -78,7 +78,7 @@
         /* add content to item display area */
         document.getElementById("item-image").innerHTML = itemImage;
         document.getElementById("item-link").innerHTML = itemLink;
-        
+
         /* trigger iiif viewer */
         if (format.includes('iiif')) {
             var uvOptions = {
@@ -114,7 +114,7 @@
         var back, forward;
         if (current === 0) {
             back = itemKeys[last];
-        } else { 
+        } else {
             back = itemKeys[current - 1];
         }
         if (current === last) {
@@ -143,7 +143,7 @@
                 break;
         }};
         {%- endif -%}
-        
+
     } else {
         /* no item with that ID */
         document.getElementById("bc-title").innerHTML = 'Not found?';
