@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
+date,Data,,,Date
 autori,Autori,,true
-creator,Creator,,,
+creator,Soggetto Creatore,,,
 subject,,true
 location,,true
