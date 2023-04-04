@@ -35,6 +35,15 @@ locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
+# AUTHORS PAGE
+#
+authors-fields: autori # set the field to be featured in the cloud
+authors-min: 1 # min size for subject cloud, too many terms = slow load time!
+authors-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+
+##########
+
+##########
 # TIMELINE PAGE
 #
 year-navigation: "1967;1968;1969;1970;1971;1972"
