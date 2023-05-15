@@ -21,7 +21,7 @@ L’avvio di una digitalizzazione dei materiali più interessanti dell’archivi
 2. consente loro di entrare in contatto con la realtà delle digital humanities e di comprendere come la tecnologia possa essere messa al servizio della promozione e valorizzazione dei beni culturali, acquisendo alcune competenze tecniche di base;
 3. consente loro di acquisire competenze nell’ambito della comunicazione culturale e valorizzazione dei beni culturali e della ricerca storica.
 
-Referenti: Prof.ssa Verena Gasperotti [Liceo Galvani](https://www.liceogalvani.edu.it/) e Prof.ssa Paola Italia ([Dipartimento FICLIT](ficlit.unibo.it/)) in collaborazione con la [Biblioteca Universitaria di Bologna](bub.unibo.it/) (Prof. Francesco Citti, Dott. Giacomo Nerozzi). Tutor: Dott.ssa Anna Sofia Lippolis ([Dipartimento FILCOM](https://dfc.unibo.it/it)).
+Referenti: Prof.ssa Verena Gasperotti ([Liceo Galvani](https://www.liceogalvani.edu.it/)) e Prof.ssa Paola Italia ([Dipartimento FICLIT](ficlit.unibo.it/)) in collaborazione con la [Biblioteca Universitaria di Bologna](bub.unibo.it/) (Prof. Francesco Citti, Dott. Giacomo Nerozzi). Tutor: Dott.ssa Anna Sofia Lippolis ([Dipartimento FILCOM](https://dfc.unibo.it/it)).
 
 Si ringraziano, per la collaborazione, il Dott. Marco Serra, responsabile della produzione e del tirocinio all’interno dell’[ADLab](https://site.unibo.it/adlab/it), ([Dipartimento FICLIT](ficlit.unibo.it/)) e la Dott.ssa Francesca Fughelli, [BUB](bub.unibo.it/).
 
