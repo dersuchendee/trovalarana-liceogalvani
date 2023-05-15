@@ -23,7 +23,7 @@ L’avvio di una digitalizzazione dei materiali più interessanti dell’archivi
 
 Referenti: Prof.ssa Verena Gasperotti [Liceo Galvani](https://www.liceogalvani.edu.it/) e Prof.ssa Paola Italia ([Dipartimento FICLIT](ficlit.unibo.it/)) in collaborazione con la [Biblioteca Universitaria di Bologna](bub.unibo.it/) (Prof. Francesco Citti, Dott. Nerozzi). Tutor: Dott.ssa Anna Sofia Lippolis ([Dipartimento FILCOM](https://dfc.unibo.it/it)).
 
-Si ringraziano, per la collaborazione, il Dott.Marco Serra, responsabile della produzione e del tirocinio all’interno dell’[ADLab](https://site.unibo.it/adlab/it), (Dipartimento FICLIT) e la Dott.ssa Francesca Fughelli [BUB](bub.unibo.it/).
+Si ringraziano, per la collaborazione, il Dott. Marco Serra, responsabile della produzione e del tirocinio all’interno dell’[ADLab](https://site.unibo.it/adlab/it), ([Dipartimento FICLIT](ficlit.unibo.it/)) e la Dott.ssa Francesca Fughelli, [BUB](bub.unibo.it/).
 
 ## Partecipanti
 
